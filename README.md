@@ -13,7 +13,9 @@
 </font>
 </blockquote>
 
-### AIM 
-The aim of the dataset is to provide a platform for developing and testing new methods for <b>predicting critical heat flux (CHF). CHF is a critical parameter in many engineering applications, particularly in the design of nuclear reactors and other thermal management systems
-The dataset was generated from a deep learning model trained on the original CHF dataset, and its features are designed to be similar to the original dataset. <b>The goal of the competition is to develop models that can accurately predict CHF based on the provided features
-By providing this dataset and hosting a competition around it, the aim is to encourage researchers and practitioners to explore new approaches to <b>predicting CHF</b>, which could ultimately lead to better understanding and management of thermal systems. 
+### About the dataset
+The aim of the dataset is to provide a platform for developing and testing new methods for predicting critical heat flux (CHF). 
+CHF is a critical parameter in many engineering applications, particularly in the design of nuclear reactors and other thermal management systems
+The dataset was generated from a deep learning model trained on the original CHF dataset, and its features are designed to be similar to the original dataset.
+The goal of the competition is to develop models that can accurately predict CHF based on the provided features
+By providing this dataset and hosting a competition around it, the aim is to encourage researchers and practitioners to explore new approaches to predicting CHF, which could ultimately lead to better understanding and management of thermal systems. 
