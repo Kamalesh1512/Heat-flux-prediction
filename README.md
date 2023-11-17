@@ -13,9 +13,11 @@
 </font>
 </blockquote>
 
-### About the dataset
-The aim of the dataset is to provide a platform for developing and testing new methods for predicting critical heat flux (CHF). 
-CHF is a critical parameter in many engineering applications, particularly in the design of nuclear reactors and other thermal management systems
-The dataset was generated from a deep learning model trained on the original CHF dataset, and its features are designed to be similar to the original dataset.
-The goal of the competition is to develop models that can accurately predict CHF based on the provided features
-By providing this dataset and hosting a competition around it, the aim is to encourage researchers and practitioners to explore new approaches to predicting CHF, which could ultimately lead to better understanding and management of thermal systems. 
+### Dataset Overview:
+The dataset aims to serve as a testing ground for developing and refining methods to predict critical heat flux (CHF). CHF holds significant importance in engineering applications, particularly in the design of nuclear reactors and thermal management systems. Generated from a deep learning model trained on the original CHF dataset, the features closely resemble the original dataset. The competition encourages participants to build models that accurately predict CHF based on these provided features, fostering innovation in thermal systems understanding and management.
+
+### Model Development Insights:
+The strategic inclusion of dropout layers in the model led to a substantial enhancement in overall performance. This improvement is evident in the minimal differences observed in key performance metrics (r2_score, mse, and rmse) between the training and test datasets. The initial model exhibited signs of overfitting, effectively mitigated in the second model through the thoughtful application of dropout layers. This refinement resulted in a more robust and generalizable model for predicting the continuous target variable, x_e_out.
+
+### Primary Evaluation Metric - RMSE,MSE,R2_Score:
+The primary evaluation metric for the model's predictive accuracy is the Root Mean Square Error (RMSE), where lower values signify superior performance. The implementation of dropout layers not only contributed to the overall enhancement of the model but also played a crucial role in minimizing RMSE. This aligns the model more closely with the target variable, x_e_out, reflecting its effectiveness in predicting critical heat flux within the dataset.
